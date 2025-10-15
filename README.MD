@@ -22,7 +22,6 @@ File Time Tracker - это плагин для IntelliJ IDEA, который о�
 - 💾 Временное хранение данных в течение сессии
 
 ## Использование
-
 1. Откройте файл в редакторе IntelliJ IDEA
 2. Перейдите в меню **Tools → "Show File Open Time"**
 3. Плагин покажет:
@@ -30,7 +29,6 @@ File Time Tracker - это плагин для IntelliJ IDEA, который о�
     - Для уже открытого файла: общее время работы
 
 ## Установка
-
 1. Соберите плагин с помощью Gradle
 2. Установите через **File → Settings → Plugins → Install Plugin from Disk**
 3. Перезапустите IDE

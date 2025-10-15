@@ -1,0 +1,21 @@
+<idea-plugin>
+    <id>com.dk.demo</id>                         <!--Уникальный идентификатор плагина-->
+    <name>File Time</name>                       <!--Отображаемое название плагина-->
+    <vendor>Klimenteva Daria 502446</vendor>     <!--Информация обо мне)-->
+
+    <depends>com.intellij.modules.platform</depends>   <!--Определяет зависимость от базовой
+    платформы IntelliJ IDEA и обеспечивает доступ к основным API и функциям IDE-->
+
+    <actions>
+        <action id="FileTime.Action"
+                class="com.dk.demo.TestPlugin"
+                text="Show File Open Time"
+                description="Show how long file has been open">
+            <add-to-group group-id="ToolsMenu" anchor="first"/>
+        </action>
+    </actions>
+    <!-- Уникальный идентификатор действия-->
+    <!-- Java-класс, реализующий логику действия (наследник AnAction)-->
+    <!-- Текст, отображаемый в интерфейсе-->
+    <!-- Описание функциональности-->
+</idea-plugin>
